@@ -21,5 +21,5 @@ C/C++을 이용한 알고리즘 구현
    * scanf <br>
     C언어의 scanf 입력 방법을 정리
     
-    * LeapYear <br>
+   * LeapYear <br>
     C언어의 년도를 입력하여 윤년을 
