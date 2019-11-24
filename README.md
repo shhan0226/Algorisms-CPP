@@ -1,7 +1,7 @@
 # Algorithms-C&CPP
 
 ## Introduction
-C++을 이용한 알고리즘 구현함
+C/C++을 이용한 알고리즘 구현함
 
 ## Algorithms
 
