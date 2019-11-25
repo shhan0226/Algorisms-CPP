@@ -14,7 +14,10 @@ C/C++을 이용한 알고리즘 구현
     C언어의 scanf 입력 방법을 정리
     
    * LeapYear <br>
-    C언어의 년도를 입력하여 윤년을 
+    C언어의 년도를 입력하여 윤년을 알려주는 프로그램 
+    
+   * Integer <br>
+    정수 출력 CPP 프로그램
 <br>
 
 ### DataStructure <br>
@@ -26,5 +29,10 @@ C/C++을 이용한 알고리즘 구현
 
 ### Needleman–Wunsch 알고리즘 <br>
 시퀀스 정렬을 위한 Dynamic programming을 적용한 프로그램
+
+### Comparing_Sequences <br>
+생물정보학에서 사용하는 LCS기반 Dynamic programming을 적용한 프로그램<br>
+입출력 및 전반적인 데이터 가공 방법을 정의한 
+
     
 
