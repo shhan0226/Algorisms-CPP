@@ -26,11 +26,8 @@ C/C++을 이용한 다양한 기능 및 알고리즘 구현 예제
    * Go.tree <br>
     스트링 데이터를 입력 받아 특정 스트링의 연결 순서를 찾는 알고리즘
 
-### Needleman–Wunsch 알고리즘 <br>
-   * 시퀀스 정렬을 위한 Dynamic programming을 적용한 프로그램
-
 ### Comparing_Sequences <br>
-   * 생물정보학에서 사용하는 LCS기반 Dynamic programming을 적용한 프로그램<br>
+   * LCS기반 Dynamic programming을 적용한 프로그램<br>
 입출력 및 전반적인 데이터 가공 방법을 정의한 
 
     
