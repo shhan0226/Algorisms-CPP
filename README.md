@@ -1,4 +1,4 @@
-# Algorithms-C&CPP
+# C&CPP
 
 ## Introduction
 C/C++을 이용한 다양한 기능 및 알고리즘 구현
