@@ -4,7 +4,7 @@
 C/C++을 이용한 알고리즘 구현
 <br><br>
 
-## Algorithms
+## Contents
 
 ### C/C++ 기본 <br>
    * main argument <br>
