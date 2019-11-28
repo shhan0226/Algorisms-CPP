@@ -7,7 +7,7 @@ C/C++을 이용한 다양한 기능 및 알고리즘 구현 예제
 
 ## Contents
 
-### C/C++ 기본 <br>
+### Basic <br>
    * main argument <br>
     C언어의 main argument를 이용하는 방법을 정리
     
