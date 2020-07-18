@@ -5,10 +5,12 @@ int main(void)
 {
 
 	/* printf(); */
+	printf("/* printf(); */\n");
 	printf("1 = %d\n", 1);
 
 	printf("------------------------------\n");
 	/* 변수 출력 */ 
+	printf("/* 변수 출력 */\n");
 	printf("[int val = 1]\n\n");
 
 	int val = 1;			// value| 1 |
@@ -24,6 +26,7 @@ int main(void)
 	
 	printf("------------------------------\n");
 	/* 포인터 변수  출력 */
+	printf("/* 포인터 변수  출력 */\n");
 	printf("[int *ptr = &val]\n\n");
 
 	int *ptr;
@@ -46,6 +49,7 @@ int main(void)
 	
 	printf("------------------------------\n");
 	/* 포인터 변수 배열  출력 */
+	printf("/* 포인터 변수 배열  출력 */\n");
 	printf("[int *ptr = &val2[3] = {3, 2, 1} ]\n\n");
 
 	int val2[3]={3, 2, 1};
@@ -90,6 +94,39 @@ int main(void)
 	printf("- size: %ld, %ld\n", sizeof(ptr[1]), sizeof(*(ptr+1)));
 
 
+	printf("------------------------------\n");
+        /* 2차원 배열 선언 */
+        printf("/* 2차원 배열 선언 */\n");
+	printf("[ array[2][3] = { {11,12,13}, {21,22,23} }]\n");
+	
+	int array[2][3] = { {11,12,13}, {21,22,23} };
+
+        /* 2차원 배열 포인터 변수 (*pptr)[]; pptr-> */
+        printf("\n/* 2차원 배열 포인터 변수 (*pptr)[]; pptr-> */\n");
+	printf("[ int (*pptr)[3]; pptr=array ]\n\n");
+	
+	int (*pptr)[3];
+
+	pptr = array;
+
+	printf("array[1] =(d) %d\n", array[1] );
+	printf("array[1] =(p) %p\n", array[1] );
+	printf("- size: %ld\n", sizeof( array[1] ));
+	printf("\n");
+
+	printf("*(pptr+0) =(d) %d\n", *(pptr+1) );
+	printf("*(pptr+0) =(p) %p\n", *(pptr+1) );
+	printf("- size: %ld\n", sizeof( *(pptr+1) ));
+	printf("\n");
+
+
+	printf("*(*(pptr+0)+1)) = %d\n", *(*(pptr+0)+1) );
+
+	/* 2차원 포인터 변수 *temp[2]; temp[0]->, temp[1]-> */
+	printf("/* 2차원 포인터 변수 *temp[2]; temp[0]->, temp[1]-> */\n");
+
+	int *temp[2];
+	printf("temp = array; --> error");
 
 
 
