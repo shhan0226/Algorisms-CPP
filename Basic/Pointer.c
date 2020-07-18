@@ -126,7 +126,7 @@ int main(void)
 	printf("/* 2차원 포인터 변수 *temp[2]; temp[0]->, temp[1]-> */\n");
 
 	int *temp[2];
-	printf("temp = array; --> error");
+	printf("temp = array; --> error; 대상체가 다름");
 
 
 
